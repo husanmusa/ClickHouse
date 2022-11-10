@@ -288,7 +288,7 @@ hasAny(array1, array2)
 
 `SELECT hasAny([[1, 2], [3, 4]], ['a', 'c'])` returns `0`.
 
-`SELECT hasAll([[1, 2], [3, 4]], [[1, 2], [1, 2]])` returns `1`.
+`SELECT hasAny([[1, 2], [3, 4]], [[1, 2], [1, 3]])` returns `1`.
 
 ## hasSubstr
 
